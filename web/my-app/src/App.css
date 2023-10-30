@@ -1,0 +1,522 @@
+.signin-form {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+  background-image: linear-gradient(79deg, #211a2e, #a6a5af 48%, #ece3ec);
+}
+.signin-form1{
+  padding: 50px;
+  border: 1px solid white;
+}
+.register-form {
+  min-height: 50vh;
+  background-color: #c5c3dc;
+  padding: 50px;
+  
+}
+.index{
+  padding: 2%;
+  background-color:  #e8efe8;
+}
+
+.forms, .signin-form1, .signin-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .forms {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-color: #e0dfe9;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input, textarea, select {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(132, 232, 102);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+.index_button {
+  background-color: #ccc;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 40px;
+}
+.drop_delete_button, .drop_edit_button {
+  border: initial;
+  background-color: initial;
+  padding: initial;
+  border-radius: initial;
+  cursor: pointer;
+  color: initial;
+  font-size: 12px;
+  padding: 8px 7px;
+  width: 20px;
+}
+.delete_button {
+  background-color: #ccc;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 40px;
+}
+  
+
+
+/* Style the thead element */
+  thead {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+
+  /* Add padding to the cells in the thead element */
+  thead th {
+    padding: 10px;
+}
+
+/* Style the logout button */
+.logout-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the link above the table */
+.link-button {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color :green;
+}
+button:hover {
+  color :green;
+}
+.drop_edit_button :hover {
+  color :green;
+}
+.drop_delete_button :hover{
+  color : rgb(251, 61, 61)
+}
+.delete_button :hover{
+  color : rgb(251, 61, 61)
+}
+
+/* Style the tr elements */
+tr {
+  color: #333;
+  text-shadow: 1px 1px 1px #ccc;
+  border: 1.5px solid #ddd;
+}
+
+/* Add padding to the cells in the tr elements */
+tr td {
+  padding: 10px;
+}
+.error{
+  color: red;
+}
+.App-logo{
+  width: 50px; height: 75px;
+}
+.slide{
+   position: relative;
+  animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*index page styling*/
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 10% 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-color: lightgray;
+  }
+
+  .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-actions {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin:1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-actions button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card-actions button:hover {
+    color: #0077cc;
+  }
+
+.delete_button {
+  color: red;
+}
+
+.index_button {
+  color: #0077cc;
+}
+
+.fa-trash,
+.fa-edit,
+.fa-paperclip,
+.fa-eye,
+.fa-envelope {
+  font-size: 24px;
+}
+
+.user-details{
+  justify-content: center;
+}
+.project-details{
+  height: 100vh;
+  display : flex;
+  flex-direction: column;
+  background-color: #e6dddd;
+  
+}
+.project{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.attachmentUsers{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 0px 8px 13px 0px rgba(97, 95, 95, 0.1);
+
+}
+.attachments-container1{
+  border-left:1px solid #ccc ;
+  padding-left: 1%;
+}
+.attachments-container2{
+  border-left:1px solid #ccc ;
+  padding-left: 1%;
+}
+.attachments-container3{
+  border-left:1px solid #ccc ;
+  padding-left: 1%;
+}
+
+
+
+
+
+
+
+
+
+.thread-list {
+  background-color: #f0f0f0;
+  list-style: none;
+  padding: 0;
+  margin: 5;
+}
+
+.thread-list li {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.thread-icon {
+  margin-right: 10px;
+}
+
+.thread-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+
+.thread-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.message-container {
+  margin: 20px;
+}
+
+.message-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-item {
+  background-color: #dac2c2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.message-sender {
+  font-weight: bold;
+  color: #382323;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  color: #382323;
+}
+
+.message-content {
+  margin: 0;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  color: #373333;
+  text-decoration: none;
+}
+
+.link-button svg {
+  margin-right: 5px;
+}
+
+
+
+.messages {
+  padding-left: 2.5%;
+  flex: 2;
+}
+
+.selected {
+  background-color: #d98989;
+}
+
+
+li:hover .thread-options {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.message-options-button {
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.container1 { 
+  padding-left: 1%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  background-color: #bdb4b4;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-section{
+  display: flex;
+  flex-direction: row;
+  background-color: #dbd3d3;
+  height: 100vh;
+}
+.top-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.newthread{
+  padding-right: 20px;
+}
+
+.threads {
+  flex: 1;
+  padding-left: 5px;
+  border: 1px solid rgb(166, 161, 161);
+}
+
+.thread-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.thread-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.thread-list li.selected {
+  background-color: #e0e0e0;
+}
+
+
+.thread-options {
+  margin-left: auto;
+}
+
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-wrapper:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.user-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.project-info {
+  background-color: #e6e6e6;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.project-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-info li {
+  margin-bottom: 10px;
+}
+
+.project-info td {
+  padding: 5px;
+}
+
+
+.description {
+  /* Limit the number of lines to display */
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

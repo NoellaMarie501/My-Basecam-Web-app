@@ -1,0 +1,25 @@
+.user-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .project-info {
+    background-color: #e6e6e6;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .project-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-info li {
+    margin-bottom: 10px;
+  }
+  
+  .project-info td {
+    padding: 5px;
+  }
+  

@@ -1,0 +1,347 @@
+.signin-form {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    
+    background-image: linear-gradient(79deg, #211a2e, #eee460 48%, #e95adf);
+  }
+  /* .index{
+    /*background-color:  #848884;*/
+  /*} */
+  
+  .forms, .signin-form1, .signin-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .forms {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+  }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input, textarea, select {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(132, 232, 102);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+  }
+  .index_button {
+    background-color: #ccc;
+    font-size: 12px;
+    padding: 4px 8px;
+    width: 40px;
+  }
+  .drop_delete_button, .drop_edit_button {
+    border: initial;
+    background-color: initial;
+    padding: initial;
+    border-radius: initial;
+    cursor: pointer;
+    color: initial;
+    font-size: 12px;
+    padding: 8px 7px;
+    width: 20px;
+  }
+  .delete_button {
+    background-color: #ccc;
+    font-size: 12px;
+    padding: 4px 8px;
+    width: 40px;
+  }
+    
+  
+  
+  /* Style the thead element */
+    thead {
+      background-color: #f2f2f2;
+      color: #333;
+      border: 1px solid #ddd;
+    }
+  
+    /* Add padding to the cells in the thead element */
+    thead th {
+      padding: 10px;
+  }
+  
+  /* Style the logout button */
+  .logout-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the link above the table */
+  .link-button {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+  
+  .link-button:hover {
+    color :green;
+  }
+  button:hover {
+    color :green;
+  }
+  .drop_edit_button :hover {
+    color :green;
+  }
+  .drop_delete_button :hover{
+    color : rgb(251, 61, 61)
+  }
+  .delete_button :hover{
+    color : rgb(251, 61, 61)
+  }
+  
+  /* Style the tr elements */
+  tr {
+    color: #333;
+    text-shadow: 1px 1px 1px #ccc;
+    border: 1.5px solid #ddd;
+  }
+  
+  /* Add padding to the cells in the tr elements */
+  tr td {
+    padding: 10px;
+  }
+  .error{
+    color: red;
+  }
+  .App-logo{
+    width: 50px; height: 75px;
+  }
+  .slide{
+     position: relative;
+    animation: slide-in 1s ease-out;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  
+  /*index page styling*/
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+  
+    .card {
+      width: 80%;
+      margin: 0 10% 2rem;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      background-color: lightgray;
+    }
+  
+    .card h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .card p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .card-actions {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      margin:1px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-actions button {
+      margin-left: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .card-actions button:hover {
+      color: #0077cc;
+    }
+  
+  .delete_button {
+    color: red;
+  }
+  
+  .index_button {
+    color: #0077cc;
+  }
+  
+  .fa-trash,
+  .fa-edit,
+  .fa-paperclip,
+  .fa-eye,
+  .fa-envelope {
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .thread-list {
+    background-color: #cbbfbf;
+    list-style: none;
+    padding: 0;
+    margin: 5;
+  }
+  
+  .thread-list li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .thread-icon {
+    margin-right: 10px;
+  }
+  
+  .thread-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  .thread-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .message-container {
+    margin: 20px;
+  }
+  
+  .message-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message-item {
+    background-color: #ead4d4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    color: #382323;
+  }
+  
+  .message-timestamp {
+    font-size: 0.8em;
+    color: #382323;
+  }
+  
+  .message-content {
+    margin: 0;
+  }
+  
+  .link-button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #373333;
+    text-decoration: none;
+  }
+  
+  .link-button svg {
+    margin-right: 5px;
+  }
+  
+  
+  .container1 {
+    display: flex;
+  }
+  
+  .threads {
+    flex: 1;
+  }
+  
+  .messages {
+    flex: 2;
+  }
+  
+  .selected {
+    background-color: #ea8989;
+  }
+  
+  .thread-options {
+    display: none;
+  }
+  
+  li:hover .thread-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .message-options-button {
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
