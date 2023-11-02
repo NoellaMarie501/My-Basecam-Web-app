@@ -1,7 +1,7 @@
 import Cookies from "js-cookie";
 import fetchUtil from "../utils/hooks/fetchUtils";
 import { getCookie } from "../utils/getCookie";
-
+import axios from "axios";
 //getting all users
 export const getUsers = async () => {
   try {
@@ -68,9 +68,9 @@ export const updateUser = async (
 export const login = async ({ email, password, navigate }) => {
   try {
     //const response = await axios.post(`${API_URL}/users/signin`, {email: email, password: password});
-    const response = await fetchUtil.post("users/signin", {
-      email: email,
-      password: password,
+    const response = await axios.post("http://172.232.194.129:3000/users/signin", {
+      email: "noelok@gmail.com",
+      password: "password",
     });
     //console.log("responce.data :", response.data.data);
 
