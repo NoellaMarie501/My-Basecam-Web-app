@@ -67,11 +67,13 @@ export const updateUser = async (
 //method to handle login
 export const login = async ({ email, password, navigate }) => {
   try {
+    console.log("email,password",email,password);
     //const response = await axios.post(`${API_URL}/users/signin`, {email: email, password: password});
     const response = await axios.post("http://172.232.194.129:3000/users/signin", {
       email: "noelok@gmail.com",
       password: "password",
     });
+    
     //console.log("responce.data :", response.data.data);
 
     const { token } = response.data.data;
