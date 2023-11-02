@@ -1,6 +1,6 @@
 import axios from "axios";
 import { API_URL } from "../../constants/config";
-
+console.log(API_URL);
 const fetchUtil = {
   post: async (url, payload) => {
     return await axios.post(`${API_URL}/${url}`, payload);
