@@ -41,7 +41,7 @@ const CreateEditFormThread = ({
       //  console.log("threads", response);
       });
     }
-    getThreadsByProject();
+    getThreadsByProject(ProjectId);
     navigate(`/threads/${ProjectId}`);
   };
   return (
