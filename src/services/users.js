@@ -69,7 +69,7 @@ export const login = async ({ email, password, navigate }) => {
   try {
     //console.log("email,password",email,password);
     //const response = await axios.post(`${API_URL}/users/signin`, {email: email, password: password});
-    const response = await axios.post("http://172.232.194.129:3000/users/signin", {
+    const response = await fetchUtil.post(`users/signin`, {
       email: email,
       password: password,
     });
