@@ -30,7 +30,7 @@ export default function SignIn(){
             <label htmlFor="email">Email</label>
             <input value ={form.email} onChange={ (e) => handleChange(e,setForm,form)} type = "email" placeholder = "enter email" name = "email" required></input><br />
             <label htmlFor="password">Password</label>
-            <input value ={form.password} onChange={(e) => handleChange(e,setForm,form)} type = "text" placeholder = "enter password" name = "password" required></input><br /> 
+            <input value ={form.password} onChange={(e) => handleChange(e,setForm,form)} type = "password" placeholder = "enter password" name = "password" required></input><br /> 
             <button type = "submit" >Sign In</button><br />
             </form>
              <Link className="link-button" to='/register' >Do not have an accout? Register Here</Link>
