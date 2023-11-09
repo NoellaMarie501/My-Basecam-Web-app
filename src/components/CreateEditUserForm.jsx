@@ -61,7 +61,7 @@ const CreateEditFormUser = ({ title, type, form, setForm, user_id }) => {
             <input
               value={form.password}
               onChange={(e) => handleChange(e, setForm, form)}
-              type="text"
+              type="password"
               placeholder="enter password"
               name="password"
               required
